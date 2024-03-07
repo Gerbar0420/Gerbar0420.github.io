@@ -2,25 +2,44 @@
 
 ## Introduction
 
-This project aims to **assist doctors in making more accurate diagnoses of medical conditions**. Using the deep learning model developed in this project, computers can accurately identify blood vessel locations in ultrasound images of patients, with an accuracy exceeding 95%.
+This project aims to **assist doctors in making more accurate diagnoses of medical conditions**. Using the deep learning model developed in this project, computers can accurately identify carotid artery areas in ultrasound images of patients, with an accuracy exceeding 95%.
 
 - **Input:** Images provided by the E-DA Hospital, as shown in Figure 1.
 
    ![](/images/blood.bmp "Figure 1")
 
 
-- **Output:** Before diagnosing, doctors can see the computer-marked blood vessel locations, compare and verify them with their experience, thereby enhancing the quality of healthcare. The image below shows the marked blood vessel positions using the method proposed in this project, as depicted in Figure 2.
+- **Output:** Before diagnosing, doctors can see the computer-marked carotid artery areas, compare and verify them with their experience, thereby enhancing the quality of healthcare. The image below shows the marked carotid artery areas using the method proposed in this project, as depicted in Figure 2.
 
    ![](/images/bloodMask.png "Figure 2")
 
+- **Performance:** I utilized the ResNet18 Unet deep learning model within the PyTorch framework, achieving an impressive **testing Dice coefficient of 0.96505.** Additionally, my performance ranked among the top three competitors with backgrounds in Statistics and Computer Science.
 
-### Objective 
-This project  doctors labeling carotid artery areas of input sonography images with very 
-I used the deep learning model ResNet18 Unet under Pytorch framework to do the analysis and not only got the amazing testing dice cofficient of 0.96505 but also ranked the top three among competitors from Statistics, Computer Science background.
-[Kaggle Competition](https://www.kaggle.com/competitions/mia-hw4/leaderboard) (Ranking: 3/31, Testing Dice Cofficient: 0.96505)
-![](/images/rank.png "My Competition Ranking")
+   [Kaggle Competition](https://www.kaggle.com/competitions/mia-hw4/leaderboard) (Ranking: 3/31, Testing Dice Cofficient: 0.96505)
+   ![](/images/rank.png "My Competition Ranking")
 
-## Challenge
+## Analysis
+
+1. Converting Image-Type Data to Vector-Type Data
+
+   1.1. 精益求精 - Dealing with Background Noise in Images
+   
+   1.2. 斬草不除根 - How to Remove Background Noise from Images
+   
+   1.3. 書同文?車同軌? - Conversion to Vectors and Normalization issues
+   
+2. Model Exploration
+   
+   2.1. 長江後浪推前浪 - Model Comparison
+   
+   2.2. 站在巨人肩膀上 - Model Pretraining
+   
+   2.3. 工欲善其事 - Hyperparameter Selection and Visualization
+   
+   2.4. 心中一把尺 - Model Evaluation
+
+
+## Technical Challenge
 1. **Choosing between Last or Best parameter setting?**
    - After training each epoch, model parameters were logged and the best one was chosen in the condition that smallest validation loss. However, parameters from last epoch are not need to be the best durning the whole training process. So, how to determine whether training with more epochs or staying in the best in the current epoch is the trade-off between prediction accuracy and the time consumption.
 
