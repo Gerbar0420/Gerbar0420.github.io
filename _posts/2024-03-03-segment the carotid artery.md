@@ -1,9 +1,16 @@
-# Deep learning in medical image analysis_semantic segmentation
+# Deep Learning in medical image analysis_Semantic Segmentation
 
 ## Introduction
-Deep learning models have shown remarkable success in medical image analysis tasks, including semantic segmentation.
-This project aims to develop predictive models to label carotid artery areas 
-of input sonography images which are obtained from EDA hospital.
+
+This project aims to **assist doctors in making more accurate diagnoses of medical conditions**. Using the deep learning model developed in this project, computers can accurately identify blood vessel locations in ultrasound images of patients, with an accuracy exceeding 95%.
+
+- **Input:** Images provided by the E-DA Hospital, as shown in Figure 1.
+![](/images/rank.png "My Competition Ranking")
+- **Output:** Before diagnosing, doctors can see the computer-marked blood vessel locations, compare and verify them with their experience, thereby enhancing the quality of healthcare. The image below shows the marked blood vessel positions using the method proposed in this project, as depicted in Figure 2.
+![](/images/artery.png "images with masks")
+
+### Objective 
+This project  doctors labeling carotid artery areas of input sonography images with very 
 I used the deep learning model ResNet18 Unet under Pytorch framework to do the analysis and not only got the amazing testing dice cofficient of 0.96505 but also ranked the top three among competitors from Statistics, Computer Science background.
 [Kaggle Competition](https://www.kaggle.com/competitions/mia-hw4/leaderboard) (Ranking: 3/31, Testing Dice Cofficient: 0.96505)
 ![](/images/rank.png "My Competition Ranking")
