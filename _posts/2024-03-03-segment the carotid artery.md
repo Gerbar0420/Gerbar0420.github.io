@@ -5,9 +5,14 @@
 This project aims to **assist doctors in making more accurate diagnoses of medical conditions**. Using the deep learning model developed in this project, computers can accurately identify blood vessel locations in ultrasound images of patients, with an accuracy exceeding 95%.
 
 - **Input:** Images provided by the E-DA Hospital, as shown in Figure 1.
-![](/images/rank.png "My Competition Ranking")
+
+   ![](/images/blood.bmp "Figure 1")
+
+
 - **Output:** Before diagnosing, doctors can see the computer-marked blood vessel locations, compare and verify them with their experience, thereby enhancing the quality of healthcare. The image below shows the marked blood vessel positions using the method proposed in this project, as depicted in Figure 2.
-![](/images/artery.png "images with masks")
+
+   ![](/images/bloodMask.png "Figure 2")
+
 
 ### Objective 
 This project  doctors labeling carotid artery areas of input sonography images with very 
