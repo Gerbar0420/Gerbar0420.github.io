@@ -1,5 +1,5 @@
-Hello and welcome to this blog. I'm currently a master student majoring NYCU Dept. Statistics.
-I am focusing on combining the interpretability of statistical time series models with the predictive accuracy of deep learning models to estimate the parameters of model under different states.
+Hello and welcome to this blog. I'm currently a master student majoring in NYCU department of Statistics.
+I am focusing on combining the interpretability of statistical time series models with the predictive accuracy of deep learning models to better estimate the parameters of model under different states.
 
 ## Contact me in the following way
 
