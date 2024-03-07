@@ -57,43 +57,12 @@ This project aims to **assist doctors in making more accurate diagnoses of medic
   
 - Validation loss remain the same
 
-  I encounter the problem of the not declined validation loss. The predictions are identical, increasing the epochs may not improve the model's performance. Trying the different learning rate help to avoid getting stuck in a local minimum of the loss function. 
+  I encounter the problem of the not declined validation loss. The predictions are identical, increasing the epochs may not improve the model's performance. Trying the different learning rate using scheduler function help to avoid getting stuck in a local minimum of the loss function. 
 
+- Shape of input tensor 
 
-## Data Preparation
-Sonography videos were taken from left and right necks of three volunteers. We randomly extracted 100 image frames from each volunteer’s video to form in total 300 training sonography images. The test data were taken from another volunteer and 100 test sonography images were created. Several radiologists to label carotid artery area from each image frame. 
-
-After collecting the 300 training images and 100 testing images, I present 16 images combined with mask(yellow portion) labeled by the experts.
-![](/images/artery.png "images with masks")
-Next, per image corresponding mask are transformed by resizing, normalizing and numericalizing into a tensor which is the standard data format used as an input of deep learning model.
-Then, Appropriate Dataloder are created for loading training data
-```python
-class DeepMedical(torch.utils.data.Dataset):
-    def __init__(self, images, transforms = None):
-        self.transforms = transforms   
-        
-        self.image_paths = images
-        self.mask_paths = [image.replace('pre', 'post') + '_ROI.bmp' for image in images]
-
-        
-    def __len__(self):
-        return len(self.image_paths)
-    
-    def __getitem__(self, idx):
-        
-        image_path = self.image_paths[idx]
-        mask_path = self.mask_paths[idx]
-        
-        image = np.array(Image.open(image_path).convert('RGB'))
-        mask = np.array(Image.open(mask_path)) * 1
-
-        if self.transforms:
-            transformed = self.transforms(image=image, mask=mask)
-            image, mask = transformed['image'], transformed['mask']
-            
-        return image, mask
-```
-
+  I encounter the problem of the not declined validation loss. The predictions are identical, increasing the epochs may not improve the model's performance. Trying the different learning rate using scheduler function help to avoid getting stuck in a local minimum of the loss function.
+  
 ## Model Building
 FCN model was first being used, however it's testing dice accuracy not surpassing 0.8 threshold. Thus, I turned into Unet model proposed by  . Especially, ResNet18 was used as encoder block and the decoder block follwed by original paper. Pre-trained model was deployed because of the small amount of data. Fine-tuning process was displayed visualizing in the wandb api dashboard. After tring the various combination of hyperparameter such as learning rate and weight decay etc. I used the set of parameter listed below as my hyperparamter setting. Include code snippets or references to notebooks where the model building process is documented.
 
