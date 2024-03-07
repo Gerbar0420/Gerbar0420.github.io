@@ -40,23 +40,24 @@ This project aims to **assist doctors in making more accurate diagnoses of medic
 
 
 ## Technical Challenge
-1. **Choosing between Last or Best parameter setting?**
-   - After training each epoch, model parameters were logged and the best one was chosen in the condition that smallest validation loss. However, parameters from last epoch are not need to be the best durning the whole training process. So, how to determine whether training with more epochs or staying in the best in the current epoch is the trade-off between prediction accuracy and the time consumption.
 
-2. **Try different combinations of hyperparameters?**
-   - There are infinite combinations of hyperparameters, in my project I mainly focus on trying different combinations of learning rate and weight decay using grid search method. With the help of visualization provided by wandb, it is easier to compare and understand the performance of each combination comprehensively and quickly.
+### Data Preprocessing
+- Data augmentation techniques
 
-3. **Validation loss remain the same in the each training epoch**
-   - I encounter the problem of the not declined validation loss. The predictions are identical, increasing the epochs may not improve the model's performance. Trying the different learning rate help to avoid getting stuck in a local minimum of the loss function. 
+  Implementing data augmentation techniques may help to enhance out of sample prediction accuracy. But how those augmented data should be incorporated into the data pipeline? Using local or streaming method?
 
-4. Trying to use binary entropy loss always feels like it could lead to better performance in binary classification tasks, but due to time constraints, this attempt was not successful, instead common cross entropy loss was used as a criterion for computing loss.
+### Model Building
+- Last or Best parameter set
 
-5. Because the characteristic of this set of images, training the model with more images (increasing from 240 to 270) allow the model to better capture the characteristics of the images.
+  After training each epoch, tens of thousands of estimated model parameters will be logged and the best set among all epochs will be chosen in the condition that smallest validation loss. However, parameter set from last epoch is not necessary to be the best set. So, how to determine whether training with more epochs further or taking the best set in the current training process is the trade-off between prediction accuracy and the time consumption.
 
-6. Without the help of Cross Validation, it's impossible to know if there's a possibility of overfitting.
-7. Due to the lack of data, data augmentation may help to enhance training result.
+- Countless combinations of hyperparameters
 
+  There are infinite combinations of hyperparameters, in my project I mainly focus on trying different combinations of learning rate and weight decay using grid search method. With the help of visualization provided by wandb, it is easier to compare and understand the performance of each combination comprehensively and quickly.
+  
+- Validation loss remain the same
 
+  I encounter the problem of the not declined validation loss. The predictions are identical, increasing the epochs may not improve the model's performance. Trying the different learning rate help to avoid getting stuck in a local minimum of the loss function. 
 
 
 ## Data Preparation
