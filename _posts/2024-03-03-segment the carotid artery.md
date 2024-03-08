@@ -4,16 +4,22 @@
 
 This project aims to **assist doctors in making more accurate diagnoses of medical conditions**. Using the deep learning model developed in this project, computers can accurately identify carotid artery areas in ultrasound images of patients, with an accuracy exceeding 95%.
 
-- **Input:** Images provided by the E-DA Hospital, as shown in Figure 1.
+- **Input**
+
+  Images provided by the E-DA Hospital, as shown in Figure 1.
 
    ![](/images/blood.bmp "Figure 1")
 
 
-- **Output:** Before diagnosing, doctors can see the computer-marked carotid artery areas, compare and verify them with their experience, thereby enhancing the quality of healthcare. The image below shows the marked carotid artery areas using the method proposed in this project, as depicted in Figure 2.
+- **Output**
+
+   Before diagnosing, doctors can see the computer-marked carotid artery areas, compare and verify them with their experience, thereby enhancing the quality of healthcare. The image below shows the marked carotid artery areas using the method proposed in this project, as depicted in Figure 2.
 
    ![](/images/bloodMask.png "Figure 2")
 
-- **Performance:** I utilized the ResNet18 as encoder part of UNet within the PyTorch framework, achieving an impressive **testing Dice coefficient of 0.96505.** Additionally, my performance ranked among the top three competitors with backgrounds in Statistics and Computer Science.
+- **Performance**
+
+  I utilized the ResNet18 as encoder part of UNet within the PyTorch framework, achieving an impressive **testing Dice coefficient of 0.96505.** Additionally, my performance ranked among the top three competitors with backgrounds in Statistics and Computer Science.
 
    [Kaggle Competition](https://www.kaggle.com/competitions/mia-hw4/leaderboard) (Ranking: 3/31, Testing Dice Cofficient: 0.96505)
    ![](/images/rank.png "My Competition Ranking")
