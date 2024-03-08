@@ -18,7 +18,7 @@ This project aims to **assist doctors in making more accurate diagnoses of medic
    [Kaggle Competition](https://www.kaggle.com/competitions/mia-hw4/leaderboard) (Ranking: 3/31, Testing Dice Cofficient: 0.96505)
    ![](/images/rank.png "My Competition Ranking")
 
-## Analysis
+## Analysis Step
 
 1. Converting Image-Type Data to Vector-Type Data
 
@@ -84,47 +84,25 @@ This project aims to **assist doctors in making more accurate diagnoses of medic
 - The Dice Coefficient, also known as the F1 Score, is a measure of the similarity between two sets. In the context of image segmentation, it is used to quantify the agreement between the predicted segmentation and the ground truth.
 
 - The formula for Dice Coefficient is given by:
-
+  
 $$ Dice = \frac{2 \times |X \cap Y|}{|X| + |Y|} $$
+  
+- Dice Coefficient ranges from 0 to 1, where 1 indicates a perfect overlap between the predicted and ground truth segmentations.
 
-   where:
+#### Intersection over Union (IoU)
 
-- $X$ is the set of pixels in the predicted segmentation,
-- $Y$ is the set of pixels in the ground truth,
-- $|\cdot|$ denotes the cardinality of a set (i.e., the number of elements).
+- IoU, also known as the Jaccard Index, is another widely used metric for segmentation evaluation. It measures the ratio of the intersection area to the union area between the predicted and ground truth segmentations.
 
-
-Dice Coefficient ranges from 0 to 1, where 1 indicates a perfect overlap between the predicted and ground truth segmentations.
-
-### Intersection over Union (IoU)
-
-IoU, also known as the Jaccard Index, is another widely used metric for segmentation evaluation. It measures the ratio of the intersection area to the union area between the predicted and ground truth segmentations.
-
-The formula for IoU is given by:
+- The formula for IoU is given by:
 
 $$ IoU = \frac{|X \cap Y|}{|X \cup Y|} $$
 
-where:
-- $X$ is the set of pixels in the predicted segmentation,
-- $Y$ is the set of pixels in the ground truth.
+-  Similar to Dice Coefficient, IoU ranges from 0 to 1, with 1 indicating a perfect overlap.
 
-Similar to Dice Coefficient, IoU ranges from 0 to 1, with 1 indicating a perfect overlap.
+![](https://www.mathworks.com/help/vision/ref/jaccard.png "Jaccard Index")
 
-![](https://www.mathworks.com/help/vision/ref/jaccard.png)
-
-### Interpretation
+#### Interpretation
 
 - **High Values**: A higher Dice Coefficient or IoU indicates better segmentation performance, as it signifies a greater overlap between the predicted and ground truth regions.
 
 - **Low Values**: Lower values suggest poor segmentation accuracy, indicating a mismatch between the predicted and ground truth segmentations.
-
-**Algorithm: Building Confusion Matrix $M$**
-
-**Input:**
-- a: Target labels tensor
-- b: Predicted labels tensor
-- num_classes: Number of classes
-
-**Output:**
-- The confusion matrix is updated and segmentation metrics are computed.
-- The $(i, j)-$ terms of the $M$ represents class-i pixels classify to class-j
