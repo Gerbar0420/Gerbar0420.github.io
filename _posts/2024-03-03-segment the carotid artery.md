@@ -13,7 +13,7 @@ This project aims to **assist doctors in making more accurate diagnoses of medic
 
    ![](/images/bloodMask.png "Figure 2")
 
-- **Performance:** I utilized the ResNet18 Unet deep learning model within the PyTorch framework, achieving an impressive **testing Dice coefficient of 0.96505.** Additionally, my performance ranked among the top three competitors with backgrounds in Statistics and Computer Science.
+- **Performance:** I utilized the ResNet18 as encoder part of UNet within the PyTorch framework, achieving an impressive **testing Dice coefficient of 0.96505.** Additionally, my performance ranked among the top three competitors with backgrounds in Statistics and Computer Science.
 
    [Kaggle Competition](https://www.kaggle.com/competitions/mia-hw4/leaderboard) (Ranking: 3/31, Testing Dice Cofficient: 0.96505)
    ![](/images/rank.png "My Competition Ranking")
@@ -48,9 +48,9 @@ This project aims to **assist doctors in making more accurate diagnoses of medic
 
 ### Model Building
 
-#### U-net
+#### UNet
 
-![](/images/UNET.png "UNET structure")
+![](/images/UNET.png "UNet structure")
 
 - **Feature extractor**: In segmentation models, feature extractor layers are used throughout the network, allowing it to process spatial information efficiently. These layers capture local patterns and structures in the input data.
 
