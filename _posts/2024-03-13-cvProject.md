@@ -63,15 +63,22 @@ The research aims to target specific sources of pollution to reduce their emissi
 
 ### Model Building
 
-#### UNet
+#### Generalized Additive Models
 
 ![](/images/ "UNet structure")
 
-- **Feature extractor**: In segmentation models, feature extractor layers are used throughout the network, allowing it to process spatial information efficiently. These layers capture local patterns and structures in the input data.
+- **Flexibility**
 
-- **Skip Connections**: To recover fine-grained details lost during downsampling, Unet uses skip connections. These connections combine feature maps from early layers with those from later layers, aiding in the reconstruction of high-resolution information.
+    GAMs allow for non-linear relationships between predictors and response variables. They can capture complex patterns in the data without the need for specifying explicit functional forms, making them highly flexible for modeling a wide range of relationships.
 
-- **Upsampling**: Segmentation models employ upsampling techniques to restore the spatial resolution of the feature maps. Transposed convolutions or bilinear interpolation can be used for this purpose.
+- **Interpretability**
+
+    Despite their flexibility, GAMs often maintain interpretability. By allowing for smooth functions of predictors, GAMs provide interpretable results, enabling researchers to understand the effect of each predictor on the response variable while considering potential non-linearities.
+
+- **Automatic Variable Selection**
+
+    GAMs can perform automatic variable selection during the modeling process. Through techniques such as penalized regression or stepwise selection, GAMs can identify the most relevant predictors while excluding irrelevant ones, thereby simplifying the model and improving its interpretability. This feature helps prevent overfitting and enhances the model's predictive accuracy.
+
 
 #### Challenge encountered
 
