@@ -82,21 +82,32 @@ The research aims to target specific sources of pollution to reduce their emissi
 
 #### Challenge encountered
 
-- Last or Best parameter set
+- The selection of the link function for proportional data.
 
-  After training each epoch, tens of thousands of estimated model parameters will be logged and the best set among all epochs will be chosen in the condition that smallest validation loss. However, parameter set from last epoch is not necessary to be the best set. So, how to determine whether training with more epochs further or taking the best set in the current training process is the trade-off between prediction accuracy and the time consumption.
-
-- Countless combinations of hyperparameters
-
-  There are infinite combinations of hyperparameters, in my project I mainly focus on trying different combinations of learning rate and weight decay using grid search method. With the help of visualization provided by wandb, it is easier to compare and understand the performance of each combination comprehensively and quickly.
   
-- Validation loss remain the same
 
-  I encounter the problem of the not declined validation loss. The predictions are identical, increasing the epochs may not improve the model's performance. Trying the different learning rate using scheduler function help to avoid getting stuck in a local minimum of the loss function. 
+- The selection and meaning of parameters of basis number for splines functions
 
-- Shape of input tensor 
+  
+  
+- The benefit of Double Penalty Approach
 
-  I encounter the problem of the not declined validation loss. The predictions are identical, increasing the epochs may not improve the model's performance. Trying the different learning rate using scheduler function help to avoid getting stuck in a local minimum of the loss function.
+   
+
+- The meaning of edf value and its choosing criteria  
+
+  
+
+- Concurvity issue in GAM
+
+  
+  
+
+- The criterion for model diagnostic   
+
+  
+
+  
   
 ### Evaluation
 
@@ -111,17 +122,6 @@ $$ Dice = \frac{2 \times |X \cap Y|}{|X| + |Y|} $$
   
 - Dice Coefficient ranges from 0 to 1, where 1 indicates a perfect overlap between the predicted and ground truth segmentations.
 
-#### Intersection over Union (IoU)
-
-- IoU, also known as the Jaccard Index, is another widely used metric for segmentation evaluation. It measures the ratio of the intersection area to the union area between the predicted and ground truth segmentations.
-
-- The formula for IoU is given by:
-
-$$ IoU = \frac{|X \cap Y|}{|X \cup Y|} $$
-
--  Similar to Dice Coefficient, IoU ranges from 0 to 1, with 1 indicating a perfect overlap.
-
-![](https://www.mathworks.com/help/vision/ref/jaccard.png "Jaccard Index")
 
 #### Interpretation
 
