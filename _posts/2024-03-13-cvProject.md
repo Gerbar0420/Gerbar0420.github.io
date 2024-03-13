@@ -1,13 +1,13 @@
-# 履歷中提及的資料分析經驗(陸續補上)
+# Data Analysis Project in C.V.(STILL UPDATING)
 
-## 中研院-不同汙染源對下呼吸道疾病的影響
+## Academia Sinica - The Impact of Different Pollution Sources on Lower Respiratory Diseases
 
-## 資策會-玩美移動公司APP數據分析
+## Institute for Information Industry - PERFECT corp user's APP behavior history data analysis 
 
-## 政大資料科學課程-預測忠誠分數
+## National Chengchi University Data Science Course - Predicting Loyalty Scores
 
-## 證基會-台灣生技產業分析
+## Securities & Futures Institute - Taiwan Bioindustry Analysis
 
-## 蝦皮-商業競賽
+## Shopee - Shopee Ultimate Case Challenge 2021
 
-## 政大迴歸分析課程-NBA球員薪水之複迴歸分析
+## National Chengchi University Regression Analysis Course - Multiple Regression Analysis of NBA Player Salaries
