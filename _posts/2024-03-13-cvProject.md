@@ -19,15 +19,13 @@ The research aims to target specific sources of pollution to reduce their emissi
 
 - **Output**
 
-   Before diagnosing, doctors can see the computer-marked carotid artery areas, compare and verify them with their experience, thereby enhancing the quality of healthcare. The image below shows the marked carotid artery areas using the method proposed in this project, as depicted in Figure 2.
-
-   ![](/images/bloodMask.png "Figure 2")
+   
 
 - **Performance**
 
-  I utilized the ResNet18 as encoder part of UNet within the PyTorch framework, achieving an impressive **testing Dice coefficient of 0.96505.** Additionally, my performance ranked among the top three competitors with backgrounds in Statistics and Computer Science.
+  By fitting a generalized additive model to selecting important variables, the R-square of the test dataset was obtained as **0.84**. Moreover, it also exhibited considerable performance in prediction, as detailed in Figure 3.
 
-   ![](/images/rank.png "My Competition Ranking")
+   ![](/images/AS_output.jpg "Figure 3")
 
 ## Analysis Step
 
