@@ -4,7 +4,7 @@
 
 ## Introduction
 
-The research aims to target specific sources of pollution to reduce their emissions, thereby improving air quality and lowering the incidence of diseases. I focused on Douliu area, and proposed two pollution sources **Sea salt spray** and **Industrial processes** along with other six variables together contributing 84% explanation of P1 concentration. The result shows that increasing a unit of **Sea salt spray** turns to an 0.62 unit increasing in P1 concentration holding other variables unchanged while 
+The research aims to target specific sources of pollution to reduce their emissions, thereby improving air quality and lowering the incidence of diseases. The following analysis will focus on Douliu area, and the result shows that two pollution sources **Sea salt spray** and **Industrial processes** along with other six variables will have 84% explainability of P1 value. The result also shows that increasing a unit of **Sea salt spray** turns to an 0.62 unit increasing in P1 value holding other variables unchanged while increasing a unit of **Industrial processes** turns to an 0.04 unit decreasing in P1 value holding other variables unchanged.
 
 - **Input**
 
