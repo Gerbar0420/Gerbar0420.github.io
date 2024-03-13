@@ -4,11 +4,11 @@
 
 ## Introduction
 
-The research aims to target specific sources of pollution to reduce their emissions, thereby improving air quality and lowering the incidence of diseases.
+The research aims to target specific sources of pollution to reduce their emissions, thereby improving air quality and lowering the incidence of diseases. I focused on Douliu area, and proposed two pollution sources **Sea salt spray** and **Industrial processes** along with other six variables together contributing 84% explanation of P1 concentration. The result shows that increasing a unit of **Sea salt spray** turns to an 0.62 unit increasing in P1 concentration holding other variables unchanged while 
 
 - **Input**
 
-  Data provided by the Academia Sinica, the box plot of **responding variable P1** as shown in Figure 1.
+  Data provided by the Academia Sinica, the box plot of **responding variable P1** is defined as the percentage of patients with lower respiratory diseases among the total number of patients seeking medical attention. P1 values from the six areas are shown in Figure 1.
 
    ![](/images/AS_EDA.png "Figure 1")
 
