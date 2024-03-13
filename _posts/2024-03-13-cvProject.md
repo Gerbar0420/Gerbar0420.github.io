@@ -8,10 +8,14 @@ The research aims to target specific sources of pollution to reduce their emissi
 
 - **Input**
 
-  Data provided by the Academia Sinica, as shown in Figure 1.
+  Data provided by the Academia Sinica, the box plot of **responding variable P1** as shown in Figure 1.
 
    ![](/images/AS_EDA.png "Figure 1")
 
+
+  The percentage of **eight major pollution sources** as shown in Figure 2.
+
+  ![](/images/AS_EDA2.png "Figure 2")
 
 - **Output**
 
@@ -23,7 +27,6 @@ The research aims to target specific sources of pollution to reduce their emissi
 
   I utilized the ResNet18 as encoder part of UNet within the PyTorch framework, achieving an impressive **testing Dice coefficient of 0.96505.** Additionally, my performance ranked among the top three competitors with backgrounds in Statistics and Computer Science.
 
-   [Kaggle Competition](https://www.kaggle.com/competitions/mia-hw4/leaderboard) (Ranking: 3/31, Testing Dice Cofficient: 0.96505)
    ![](/images/rank.png "My Competition Ranking")
 
 ## Analysis Step
