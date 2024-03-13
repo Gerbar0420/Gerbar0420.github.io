@@ -19,13 +19,15 @@ The research aims to target specific sources of pollution to reduce their emissi
 
 - **Output**
 
+  
+  Through the variable selection process, 8 representative explanatory variables were obtained from a pool of 63 variables. Taking Douliu as an example, Sea salt spray and Industrial processes were identified as important explanatory variables for interpretating P1 among the eight major pollution sources in that area.
    
 
 - **Performance**
 
   By fitting a generalized additive model to selecting important variables, the R-square of the test dataset was obtained as **0.84**. Moreover, it also exhibited considerable performance in prediction, as detailed in Figure 3.
 
-   ![](/images/AS_output.jpg "Figure 3")
+   ![](/images/AS_output.png "Figure 3")
 
 ## Analysis Step
 
