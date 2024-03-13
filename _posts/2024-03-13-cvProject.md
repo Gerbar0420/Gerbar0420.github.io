@@ -20,28 +20,28 @@ The research aims to target specific sources of pollution to reduce their emissi
 - **Output**
 
   
-  Through the variable selection process, 8 representative explanatory variables were obtained from a pool of 63 variables. Taking Douliu as an example, Sea salt spray and Industrial processes were identified as important explanatory variables for interpretating P1 among the eight major pollution sources in that area.
+  Through the variable selection process, eight explanatory variables were selected from a pool of 63 variables. Taking Douliu as an example, Sea salt spray and Industrial processes were identified as important explanatory variables for interpretating P1 value among the eight major pollution sources in that area.
    
 
 - **Performance**
 
-  By fitting a generalized additive model to selecting important variables, the R-square of the test dataset was obtained as **0.84**. Moreover, it also exhibited considerable performance in prediction, as detailed in Figure 3.
+  By fitting a generalized additive model to selecting important variables, the R-squared of the test dataset reach **0.84**. Moreover, it also exhibited considerable performance in prediction, as detailed in Figure 3.
 
    ![](/images/AS_output.png "Figure 3")
 
 ## Analysis Step
 
-1. Variables discussion
+1. Variable discussion
 
-   1.1. P1 - Why using the proportion value, instead of observational value?
+   1.1. P1 - The potential problem
    
-   1.2. eight major pollution sources - How to Remove Background Noise from Images
+   1.2. Eight Major Pollution Sources - 
    
-   1.3. time variable - Time really matters
+   1.3. Time Variable - Time really matters
 
-   1.4. chemical element variable - preliminary dependence analysis 
+   1.4. Chemical Element Variable - preliminary dependence analysis 
 
-   1.5. air condition variable - 
+   1.5. Air Condition Variable - 
    
 2. Model Exploration
    
@@ -49,23 +49,23 @@ The research aims to target specific sources of pollution to reduce their emissi
    
    2.2. Variable Selection - Double penalty approach, Marra and Wood (2011)
    
-   2.3. 共曲線診斷
+   2.3. Concurvity - variable dependence
    
-   2.4. Model diagnostic - different from the linear assumption diagnostic.
+   2.4. Model diagnostic - different from the linear assumption diagnostic
 
 
 ## Technical Challenge
 
 ### Data Preprocessing
-- Data augmentation techniques
+- 
 
-  Implementing data augmentation techniques may help to enhance out of sample prediction accuracy. But how those augmented data should be incorporated into the data pipeline? Using local or streaming method?
+  
 
 ### Model Building
 
 #### UNet
 
-![](/images/UNET.png "UNet structure")
+![](/images/ "UNet structure")
 
 - **Feature extractor**: In segmentation models, feature extractor layers are used throughout the network, allowing it to process spatial information efficiently. These layers capture local patterns and structures in the input data.
 
