@@ -112,7 +112,7 @@ The research aims to target specific sources of pollution to reduce their emissi
 ### Evaluation
 
 
-#### Dice Coefficient
+#### R-squared
 
 - The Dice Coefficient, also known as the F1 Score, is a measure of the similarity between two sets. In the context of image segmentation, it is used to quantify the agreement between the predicted segmentation and the ground truth.
 
