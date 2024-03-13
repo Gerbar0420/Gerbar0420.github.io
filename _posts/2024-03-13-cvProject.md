@@ -31,23 +31,27 @@ The research aims to target specific sources of pollution to reduce their emissi
 
 ## Analysis Step
 
-1. Converting Image-Type Data to Vector-Type Data
+1. Variables discussion
 
-   1.1. 精益求精 - Dealing with Background Noise in Images
+   1.1. P1 - Why using the proportion value, instead of observational value?
    
-   1.2. 斬草不除根 - How to Remove Background Noise from Images
+   1.2. eight major pollution sources - How to Remove Background Noise from Images
    
-   1.3. 書同文?車同軌? - Conversion to Vectors and Normalization issues
+   1.3. time variable - Time really matters
+
+   1.4. chemical element variable - preliminary dependence analysis 
+
+   1.5. air condition variable - 
    
 2. Model Exploration
    
-   2.1. 長江後浪推前浪 - Model Comparison
+   2.1. Generalized Additive Models(GAM) - Model advantage
    
-   2.2. 站在巨人肩膀上 - Model Pretraining
+   2.2. Variable Selection - Double penalty approach, Marra and Wood (2011)
    
-   2.3. 工欲善其事 - Hyperparameter Selection and Visualization
+   2.3. 共曲線診斷
    
-   2.4. 心中一把尺 - Model Evaluation
+   2.4. Model diagnostic - different from the linear assumption diagnostic.
 
 
 ## Technical Challenge
