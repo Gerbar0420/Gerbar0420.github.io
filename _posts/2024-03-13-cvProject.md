@@ -8,9 +8,9 @@ The research aims to target specific sources of pollution to reduce their emissi
 
 - **Input**
 
-  Images provided by the E-DA Hospital, as shown in Figure 1.
+  Data provided by the Academia Sinica, as shown in Figure 1.
 
-   ![](/images/blood.bmp "Figure 1")
+   ![](/images/AS_EDA.png "Figure 1")
 
 
 - **Output**
