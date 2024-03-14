@@ -26,7 +26,7 @@ The research aims to target specific sources of pollution to reduce their emissi
 
 1. Variable discussion
 
-   1.1. P1 - potential problem
+   1.1. P1
 
      該變數為就診且為下呼吸道疾病病患之人數除以總就診人數，具明顯的假日效應，也就是假日的P1值會較平日高
    
@@ -37,11 +37,11 @@ The research aims to target specific sources of pollution to reduce their emissi
      ![](/images/final33.png "Figure 2")
      
    
-   1.3. Time Variable - Time really matters
-
+   1.3. Time Variable
+   
      透過將P1變數隨著時間作圖，可得知P1具有週期性，本例中之週期約莫為一週，因此就該觀測值是否為**假日**新增一變數，後來發現該變數非常重要
 
-   1.4. Chemical Element Variable - preliminary dependence analysis
+   1.4. Chemical Element Variable
 
      化學元素的資訊在本次研究中未被採用，但我認為未來可採納的統計方法有
      
@@ -50,11 +50,11 @@ The research aims to target specific sources of pollution to reduce their emissi
 
      由上述兩步驟，即可透過具有解釋性的統計方法，將34維度的變數量，縮減為2個具代表性的變數量
 
-   1.5. Air Condition Variable -
+   1.5. Air Condition Variable
 
      
    
-3. Model Exploration
+2. Model Exploration
    
    2.1. Generalized Additive Models(GAM) - Model advantage
    
