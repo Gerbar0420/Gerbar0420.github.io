@@ -31,17 +31,17 @@ The research aims to target specific sources of pollution to reduce their emissi
 
 1. Variable discussion
 
-   1.1. P1 -  potential problem
+   1.1. P1 - potential problem
 
-     該變數為就診且為下呼吸道疾病病患之人數除上總就診人數，具明顯的假日效應，也就是假日的P1值會較平日高
+     該變數為就診且為下呼吸道疾病病患之人數除以總就診人數，具明顯的假日效應，也就是假日的P1值會較平日高
    
    1.2. Eight Major Pollution Sources -
 
-     根據某地將
+     
    
    1.3. Time Variable - Time really matters
 
-     透過將P1變數隨著時間作圖，可得知P1具有週期性，本例中之週期約莫為一週，即為**假日**看診人數較多之效應
+     透過將P1變數隨著時間作圖，可得知P1具有週期性，本例中之週期約莫為一週，因此就該觀測值是否為**假日**新增一變數，後來發現該變數非常重要
 
    1.4. Chemical Element Variable - preliminary dependence analysis
 
