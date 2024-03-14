@@ -106,14 +106,3 @@ The research aims to target specific sources of pollution to reduce their emissi
 - The criterion for model diagnostic   
 
   
-
-
-
-
-## National Chengchi University Data Science Course - Predicting Loyalty Scores
-
-## Securities & Futures Institute - Taiwan Bioindustry Analysis
-
-## Shopee - Shopee Ultimate Case Challenge 2021
-
-## National Chengchi University Regression Analysis Course - Multiple Regression Analysis of NBA Player Salaries
