@@ -10,11 +10,6 @@ The research aims to target specific sources of pollution to reduce their emissi
 
    ![](/images/douliuP1.png "Figure 1")
 
-
-  The time series plot of Douliu area's three important pollution sources are shown in Figure 2.
-
-  ![](/images/final33.png "Figure 2")
-
 - **Output**
 
   
@@ -35,8 +30,11 @@ The research aims to target specific sources of pollution to reduce their emissi
 
      該變數為就診且為下呼吸道疾病病患之人數除以總就診人數，具明顯的假日效應，也就是假日的P1值會較平日高
    
-   1.2. Eight Major Pollution Sources -
+   1.2. Eight Major Pollution Sources
 
+     The time series plot of Douliu area's three important pollution sources are shown in Figure 2.
+
+     ![](/images/final33.png "Figure 2")
      
    
    1.3. Time Variable - Time really matters
