@@ -56,16 +56,9 @@ The research aims to target specific sources of pollution to reduce their emissi
 
 ## Technical Challenge
 
-### Data Preprocessing
-- 
-
-  
-
 ### Model Building
 
 #### Generalized Additive Models
-
-![](/images/ "UNet structure")
 
 - **Flexibility**
 
