@@ -8,7 +8,7 @@ The research aims to target specific sources of pollution to reduce their emissi
 
   Data provided by the Academia Sinica, the time series plot of **responding variable P1** is defined as the percentage of patients with lower respiratory diseases among the total number of patients seeking medical attention. P1 time series is shown in Figure 1. Also, **Eight Major Pollution Sources**, **Time Variables** and **Air Condition Variables**  totally 63 predictors can be used.
 
-   ![](/images/douliuP1.png "Figure 1")
+   ![](/images/Rplot.png "Figure 1")
 
 - **Output**
 
