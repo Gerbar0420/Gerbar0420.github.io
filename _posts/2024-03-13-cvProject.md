@@ -107,29 +107,8 @@ The research aims to target specific sources of pollution to reduce their emissi
 
   
 
-  
-  
-### Evaluation
 
 
-#### R-squared
-
-- The Dice Coefficient, also known as the F1 Score, is a measure of the similarity between two sets. In the context of image segmentation, it is used to quantify the agreement between the predicted segmentation and the ground truth.
-
-- The formula for Dice Coefficient is given by:
-  
-$$ Dice = \frac{2 \times |X \cap Y|}{|X| + |Y|} $$
-  
-- Dice Coefficient ranges from 0 to 1, where 1 indicates a perfect overlap between the predicted and ground truth segmentations.
-
-
-#### Interpretation
-
-- **High Values**: A higher Dice Coefficient or IoU indicates better segmentation performance, as it signifies a greater overlap between the predicted and ground truth regions.
-
-- **Low Values**: Lower values suggest poor segmentation accuracy, indicating a mismatch between the predicted and ground truth segmentations.
-
-## Institute for Information Industry - PERFECT corp user's APP behavior history data analysis 
 
 ## National Chengchi University Data Science Course - Predicting Loyalty Scores
 
