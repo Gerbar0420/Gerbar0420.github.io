@@ -1,6 +1,4 @@
-# Data Analysis Project in C.V.(STILL UPDATING)
-
-## Academia Sinica - The Impact of Different Pollution Sources on Lower Respiratory Diseases
+# Academia Sinica - The Impact of Different Pollution Sources on Lower Respiratory Diseases(STILL UPDATING)
 
 ## Introduction
 
@@ -33,17 +31,32 @@ The research aims to target specific sources of pollution to reduce their emissi
 
 1. Variable discussion
 
-   1.1. P1 - The potential problem
+   1.1. P1 -  potential problem
+
+     該變數為就診且為下呼吸道疾病病患之人數除上總就診人數，具明顯的假日效應，也就是假日的P1值會較平日高
    
-   1.2. Eight Major Pollution Sources - 
+   1.2. Eight Major Pollution Sources -
+
+     根據某地將
    
    1.3. Time Variable - Time really matters
 
-   1.4. Chemical Element Variable - preliminary dependence analysis 
+     透過將P1變數隨著時間作圖，可得知P1具有週期性，本例中之週期約莫為一週，即為**假日**看診人數較多之效應
 
-   1.5. Air Condition Variable - 
+   1.4. Chemical Element Variable - preliminary dependence analysis
+
+     化學元素的資訊在本次研究中未被採用，但我認為未來可採納的統計方法有
+     
+       1.將34個化學元素採取PCA維度縮減方式，萃取出2個主要成分。
+       2.由步驟1所萃取出的2個主要成分利用copula模型做待有時間資訊的變數相關性研究。
+
+     由上述兩步驟，即可透過具有解釋性的統計方法，將34維度的變數量，縮減為2個具代表性的變數量
+
+   1.5. Air Condition Variable -
+
+     
    
-2. Model Exploration
+3. Model Exploration
    
    2.1. Generalized Additive Models(GAM) - Model advantage
    
