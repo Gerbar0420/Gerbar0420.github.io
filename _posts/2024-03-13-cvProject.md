@@ -11,7 +11,7 @@ The research aims to target specific sources of pollution to reduce their emissi
    ![](/images/douliuP1.png "Figure 1")
 
 
-  The time series plot of three iconic pollution sources are shown in Figure 2.
+  The time series plot of Douliu area's three important pollution sources are shown in Figure 2.
 
   ![](/images/final3.png "Figure 2")
 
