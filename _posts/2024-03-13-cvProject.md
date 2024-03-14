@@ -18,7 +18,7 @@ The research aims to target specific sources of pollution to reduce their emissi
 - **Output**
 
   
-  Through the variable selection process, eight explanatory variables were selected from a pool of 63 variables. Taking Douliu as an example, Sea salt spray and Industrial processes were identified as important explanatory variables for interpretating P1 value among the eight major pollution sources in that area.
+  Through the variable selection process, eight explanatory variables were selected from a pool of 63 variables. Taking Douliu as an example, Sea salt spray and Industrial processes were identified as important explanatory variables for interpretating P1 value.
    
 
 - **Performance**
