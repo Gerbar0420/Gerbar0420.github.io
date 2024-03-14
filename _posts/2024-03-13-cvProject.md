@@ -28,7 +28,7 @@ The research aims to target specific sources of pollution to reduce their emissi
 
    1.1. P1
 
-     該變數為就診且為下呼吸道疾病病患之人數除以總就診人數，具明顯的假日效應，也就是假日的P1值會較平日高
+     該變數為就診且為下呼吸道疾病病患之人數除以總就診人數，從圖一中可看出具明顯的週期性效應，資料中顯示該週期性為假日之效應
    
    1.2. Eight Major Pollution Sources
 
@@ -39,7 +39,7 @@ The research aims to target specific sources of pollution to reduce their emissi
    
    1.3. Time Variable
    
-     透過將P1變數隨著時間作圖，可得知P1具有週期性，本例中之週期約莫為一週，因此就該觀測值是否為**假日**新增一變數，後來發現該變數非常重要
+     透過將P1變數隨著時間作圖，可得知P1具有週期性，本例中之週期約莫為一週，因此透過就該觀測值是否為**假日**新增一變數，後來模型篩選的結果發現該變數佔有非常重要的解釋能力
 
    1.4. Chemical Element Variable
 
