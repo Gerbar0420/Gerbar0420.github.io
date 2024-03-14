@@ -2,11 +2,11 @@
 
 ## Introduction
 
-The research aims to target specific sources of pollution to reduce their emissions, thereby improving air quality and lowering the incidence of diseases. The following analysis will focus on Douliu area, and the result shows that two pollution sources **Sea salt spray** and **Industrial processes** along with other six variables will have 84% explainability of P1 value. The result also shows that increasing a unit of **Sea salt spray** turns to an 0.62 unit increasing in P1 value holding other variables unchanged while increasing a unit of **Industrial processes** turns to an 0.04 unit decreasing in P1 value holding other variables unchanged.
+The research aims to target specific sources of pollution to reduce their emissions, thereby improving air quality and lowering the incidence of diseases. The following analysis will focus on the **Douliu area**. The results indicate that two sources of pollution, namely sea salt spray and industrial processes, were selected from the eight sources of pollution, along with other types of variables. This selection yields an 84% explainability of the P1 value. Additionally, the results show that increasing a unit of sea salt spray results in a 0.62 unit increase in the P1 value, holding other variables unchanged, while increasing a unit of industrial processes results in a 0.04 unit decrease in the P1 value, holding other variables unchanged.
 
 - **Input**
 
-  Data provided by the Academia Sinica, the box plot of **responding variable P1** is defined as the percentage of patients with lower respiratory diseases among the total number of patients seeking medical attention. P1 values from the six areas are shown in Figure 1.
+  Data provided by the Academia Sinica, the box plot of **responding variable P1** is defined as the percentage of patients with lower respiratory diseases among the total number of patients seeking medical attention. P1 time series from different areas are shown in Figure 1. 
 
    ![](/images/AS_EDA.png "Figure 1")
 
