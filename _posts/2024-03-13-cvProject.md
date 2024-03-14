@@ -6,7 +6,7 @@ The research aims to target specific sources of pollution to reduce their emissi
 
 - **Input**
 
-  Data provided by the Academia Sinica, the box plot of **responding variable P1** is defined as the percentage of patients with lower respiratory diseases among the total number of patients seeking medical attention. P1 time series from different areas are shown in Figure 1. 
+  Data provided by the Academia Sinica, the time series plot of **responding variable P1** is defined as the percentage of patients with lower respiratory diseases among the total number of patients seeking medical attention. P1 time series is shown in Figure 1. 
 
    ![](/images/douliuP1.png "Figure 1")
 
@@ -18,12 +18,12 @@ The research aims to target specific sources of pollution to reduce their emissi
 - **Output**
 
   
-  Through the variable selection process, eight explanatory variables were selected from a pool of 63 variables. Taking Douliu as an example, Sea salt spray and Industrial processes were identified as important explanatory variables for interpretating P1 value.
+  Through the variable selection process, eight predictors were selected from a pool of 63 variables. Taking Douliu as an example, **Sea salt spray** and **Industrial processes** were identified as important Pollution Sources variables for interpretating P1 value.
    
 
 - **Performance**
 
-  By fitting a generalized additive model to selecting important variables, the R-squared of the test dataset reach **0.84**. Moreover, it also exhibited considerable performance in prediction, as detailed in Figure 3.
+  After fitting a generalized additive model to select important variables, the R-squared of the test dataset reach **0.84**. Moreover, it also exhibited considerable performance in prediction, as detailed in Figure 3.
 
    ![](/images/AS_output.png "Figure 3")
 
